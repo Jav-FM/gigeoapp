@@ -5,8 +5,117 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GIGEO App</title>
+
+    <!--Mi estilo-->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/5a4ca3f63c.js" crossorigin="anonymous"></script>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Poppins:wght@500&display=swap" rel="stylesheet">
+
 </head>
 <body>
+
+ <!--Navbar-->
+ <nav class="navbar navbar-expand-lg my-3">
+    <h1 class="navbar__logo-gigeo" href="#">GIGEO</h1>
+    <p class="navbar__logo-art">ART</p>
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="fas fa-bars fa-2x"></span>
+    </button>
+    <div class="navbar-collapse nav-iconos collapse" id="navbarSuppoertedContent">
+      <ul class="navbar-nav ml-auto px-3">
+        <li class="nav-item px-1">
+          <a class="nav-link" href="#"><i class="fas fa-search fa-1x"></i></a>
+        </li>
+        <li class="nav-item px-1">
+          <a class="nav-link" href="#"><i class="fas fa-video fa-1x"></i></a>
+        </li>
+        <li class="nav-item px-1">
+          <a class="nav-link" href="#"><i class="fas fa-plus fa-1x"></i></a>
+        </li>
+        <li class="nav-item px-1">
+            <a class="nav-link" href="#"><i class="far fa-bell fa-1x"></i></a>
+        </li>
+        <li class="nav-item d-none d-md-block px-1">
+            <a class="nav-link" href="#"><i class="fas fa-bars fa-1x"></i></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+ <!--Header-->
+  <header class="container-fluid"></header>
+
+ <!--User-->
+ <div class="section container-fluid">
+    <section class="user container">
+        <div class="user__info my-2">
+            <img class="user__info--image" src="assets/img/profile-image.png" alt="user img">
+            <div class="user__info--text pl-4">
+                <h3 class="mt-3">Yuki Mukami</h3>
+                <p class="mb-3">30.000 seguidores</p>
+            </div>
+        </div>
+        <div class="user__interaction">
+            <button class="button__light-blue">Mensaje</button>
+            <button class="button__pink">Seguir</button>
+        </div>
+    </section>
+</div>
+
+ <!--Videos populares section-->
+ <section class="videos-populares container pb-3">
+     <h2 class="videos-populares__title py-4">Videos Populares</h2>
+    <div class="row pb-3">
+        <div class="videos-populares__post col-12 col-sm-6 col-md-3">
+            <img class="videos-populares__post--img mb-3" src="assets/img/image-1.png" alt="img-1">
+            <h3 class="videos-populares__post--title">Después de la vela - Yuki Mukami</h3>
+            <h5 class="videos-populares__post--info">16k vistas - 1 semana atrás</h5>
+        </div>
+        <div class="videos-populares__post col-12 col-sm-6 col-md-3">
+            <img class="videos-populares__post--img mb-3" src="assets/img/image-2.png" alt="img-2">
+            <h3 class="videos-populares__post--title">Far Away - Yuki Mukami</h3>
+            <h5 class="videos-populares__post--info">100k vistas - 1 mes atrás</h5> 
+        </div>
+        <div class="videos-populares__post col-12 col-sm-6 col-md-3">
+            <img class="videos-populares__post--img mb-3" src="assets/img/image-3.png" alt="img-3">
+            <h3 class="videos-populares__post--title">City - Yuki Mukami</h3>
+            <h5 class="videos-populares__post--info">20k vistas - 1 mes atrás</h5>
+        </div>
+        <div class="videos-populares__post col-12 col-sm-6 col-md-3">
+            <img class="videos-populares__post--img mb-3" src="assets/img/image-4.png" alt="img-4">
+            <h3 class="videos-populares__post--title">A Yuki Tale - Yuki Mukami</h3>
+            <h5 class="videos-populares__post--info">1m vistas - 1 año atrás</h5>
+        </div>
+    </div>
+    <div class="row pb-3">
+        <div class="videos-populares__post col-12 col-sm-6 col-md-3">
+            <img class="videos-populares__post--img mb-3" src="assets/img/image-5.png" alt="img-5">
+            <h3 class="videos-populares__post--title">Mapocho - Yuki Mukami</h3>
+            <h5 class="videos-populares__post--info">100k vistas - 1 mes atrás</h5>
+        </div>
+        <div class="videos-populares__post col-12 col-sm-6 col-md-3">
+            <img class="videos-populares__post--img mb-3" src="assets/img/image-6.png" alt="img-6">
+            <h3 class="videos-populares__post--title">Luky Days - Yuki Mukami</h3>
+            <h5 class="videos-populares__post--info">40k vistas - 3 meses atrás</h5>
+        </div>
+        <div class="videos-populares__post col-12 col-sm-6 col-md-3">
+            <img class="videos-populares__post--img mb-3" src="assets/img/image-7.png" alt="img-7">
+            <h3 class="videos-populares__post--title">30 days in My House</h3>
+            <h5 class="videos-populares__post--info">10k vistas - 4 meses atrás</h5>
+        </div>
+        <div class="videos-populares__post col-12 col-sm-6 col-md-3">
+            <img class="videos-populares__post--img mb-3" src="assets/img/image-8.png" alt="img-8">
+            <h3 class="videos-populares__post--title">Santiago - Yuki Mukami</h3>
+            <h5 class="videos-populares__post--info">40k vistas - 3 meses atrás</h5>
+        </div>
+    </div>
+ </section>
+
     
 </body>
 </html>

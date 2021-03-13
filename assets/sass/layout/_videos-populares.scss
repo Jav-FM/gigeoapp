@@ -1,0 +1,20 @@
+.videos-populares__post {
+    &--img {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+.videos-populares__title {
+    text-align: center;
+}
+
+.videos-populares__post {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+}

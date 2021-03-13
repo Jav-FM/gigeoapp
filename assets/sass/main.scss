@@ -1,11 +1,12 @@
 // Ingresar aquí todos los parciales a importar en este manifiesto.
 // Se debe seguir el orden de carga propuesto a continuación para los @imports.
 
+// Vendors
+@import 'vendors/bootstrap-4.6/bootstrap';
+
 // Abstracts
 @import 'abstracts/variables';
 @import 'abstracts/mixins';
-
-// Vendors
 
 // Base
 @import 'base/reset';
@@ -13,15 +14,14 @@
 @import 'base/base';
 
 // Layout
-@import 'layout/grid';
+@import 'layout/navbar';
 @import 'layout/header';
-@import 'layout/main';
-@import 'layout/footer';
+@import 'layout/user-section';
+@import 'layout/videos-populares';
 
 // // Components
+
 @import 'components/buttons';
-@import 'components/cards';
-@import 'components/navigations';
 
 // Page
 
